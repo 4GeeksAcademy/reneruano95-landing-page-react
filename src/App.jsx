@@ -1,7 +1,7 @@
 import React from "react";
-import Navbar from "./component/navbar";
-import Footer from "./component/footer";
-import Container from "./component/container";
+import Navbar from "./component/navbar/navbar";
+import Footer from "./component/footer/footer";
+import Container from "./component/container/container";
 
 //create your first component
 const App = () => {
