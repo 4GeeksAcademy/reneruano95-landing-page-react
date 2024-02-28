@@ -6,7 +6,7 @@ import Container from "./component/container/container";
 //create your first component
 const App = () => {
 	return (
-		<div className="min-vh-100">
+		<div className="min-vh-100 d-flex flex-column justify-content-between">
 			<Navbar />
 			<Container />
 			<Footer />
